@@ -1,0 +1,163 @@
+/* Standard HTML Elements */
+
+body {
+	background-color : #EFEBDA;
+}
+
+
+p {
+    FONT-SIZE: 10px; 
+	COLOR: #96794D; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.white-bold {
+    FONT-SIZE: 10px; 
+	COLOR: #FFFFFF;
+	font-weight:bold;
+	text-decoration:none;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+
+td {
+    FONT-SIZE: 10px; 
+	COLOR: #96794D; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+
+b {
+	font-weight : bold;
+}
+
+i {
+	font-style : italic;
+}
+
+li {
+    FONT-SIZE: 10px; 
+	COLOR: #002d70; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+
+a:link {
+	COLOR: #29755A;
+	TEXT-DECORATION: underline
+}
+
+a:visited {
+	COLOR: #29755A;
+	TEXT-DECORATION: underline;
+}
+
+a:active {
+	COLOR: #29755A;
+	TEXT-DECORATION: none;
+}
+
+a:hover {
+	COLOR: #A9A18C;
+	TEXT-DECORATION: none;
+}
+
+/* Form Elements */
+.form-text {
+    FONT-SIZE: 10px; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+	BACKGROUND-COLOR: #FCF7F1;
+	color: #96794D;
+}
+
+.form-dropdown {
+    FONT-SIZE: 10px; 
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+	BACKGROUND-COLOR: #FCF7F1; 
+	color: #96794D;
+}
+
+.form-button {
+    FONT-SIZE: 10px; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+	BACKGROUND-COLOR: #FCF7F1;
+	color: #96794D;
+	cursor : hand;
+}
+
+.form-radio {
+    
+}
+
+.form-checkbox {
+    
+}
+
+.form-textarea {
+    FONT-SIZE: 10px; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+	BACKGROUND-COLOR: #FCF7F1;
+	color: #96794D;
+}
+
+.form-textarea_255 {
+    FONT-SIZE: 10px; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+	BACKGROUND-COLOR: #FCF7F1;
+	WIDTH: 350px; 
+	HEIGHT: 100px;
+	color: #96794D;
+}
+
+/* Application Specific Style Classes */
+td.cell-dark {
+    FONT-WEIGHT : bold;
+    FONT-SIZE: 10px; 
+	COLOR: #ffffff; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+	BACKGROUND-COLOR: #CEC7AD;
+}
+
+td.cell-medium {
+    FONT-SIZE: 10px; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+	BACKGROUND-COLOR: #E7DFBD;
+}
+
+td.cell-light {
+    FONT-SIZE: 10px; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+	
+}
+
+.small-text {
+    FONT-SIZE: 9px; 
+	COLOR: #606060; 
+	FONT-FAMILY:  Arial;
+}
+
+.required-field {
+    FONT-SIZE: 10px; 
+	COLOR: #ff0000; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+}
+
+.scroll {
+	BORDER-RIGHT: #456174 0px solid; 
+	PADDING-RIGHT: 0px; 
+	BACKGROUND-POSITION: 0% 50%; 
+	BORDER-TOP: #456174 0px solid; 
+	PADDING-LEFT: 2px; 
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 10pt; 
+	BACKGROUND-ATTACHMENT: scroll; 
+	PADDING-BOTTOM: 2px; 
+	OVERFLOW: auto; 
+	BORDER-LEFT: #456174 0px solid; 
+	WIDTH: 740px; 
+	PADDING-TOP: 2px; 
+	BORDER-BOTTOM: #456174 0px solid; 
+	BACKGROUND-REPEAT: repeat; 
+	FONT-STYLE: normal; 
+	FONT-FAMILY: Lucida Console; 
+	HEIGHT: 200px; 
+	BACKGROUND-COLOR: #ffffff; 
+	FONT-VARIANT: normal;
+}

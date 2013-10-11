@@ -1,0 +1,1 @@
+addMainItem('http://dev-sites.com','Meritz',110,'center','_blank','',0,0,'');addMainItem('','Property Selection',130,'center','','',0,0,'');defineSubmenuProperties(130,'left','left',0,0);addSubmenuItem('/sys/prop.cfm?changeid=Mer','Meritz','','');addMainItem('/logout.cfm','Log Out',60,'center','','',0,0,''); 
