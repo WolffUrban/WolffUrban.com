@@ -20,7 +20,7 @@ function MM_preloadImages() { //v3.0
 function MM_findObj(n, d) { //v4.01
   var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
     d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+!  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
   for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
   if(!x && d.getElementById) x=d.getElementById(n); return x;
 }
@@ -59,7 +59,7 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
 										<tr>
 											<td><img src="i/space.gif" width="425" height="15"></td>
 										</tr> --->
-										<tr>
+										<!---tr>
 											<td><a href="bio_goto.html"><img src="i/principals/principals_goto.gif" width="350" height="23" border="0"></a></td>
 										</tr>
 										<tr>
